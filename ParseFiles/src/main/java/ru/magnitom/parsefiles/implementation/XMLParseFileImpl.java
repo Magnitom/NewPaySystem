@@ -72,7 +72,7 @@ public class XMLParseFileImpl implements PaymentParseFile {
                         }
                     }
                 }
-            } catch (XMLStreamException | IOException ignored) {
+            } catch (XMLStreamException | IOException | IllegalStateException ignored) {
             }
             if (fromDone && toDone && amountDone) {
                 repoParse.save(new ParseXmlPayment(arrPaymentXml[0], arrPaymentXml[1], Integer.parseInt(arrPaymentXml[2])));
