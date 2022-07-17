@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import ru.magnitom.checkpayments.api.GetFailPaymnets;
-import ru.magnitom.checkpayments.entity.Payments;
+import ru.magnitom.commonentity.entity.Payments;
 
 
 @Component

@@ -1,7 +1,7 @@
 package ru.magnitom.checkpayments.api;
 
 import org.springframework.stereotype.Component;
-import ru.magnitom.checkpayments.entity.Payments;
+import ru.magnitom.commonentity.entity.Payments;
 
 @Component
 public interface GetFailPaymnets {

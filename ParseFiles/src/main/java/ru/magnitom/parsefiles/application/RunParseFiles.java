@@ -4,8 +4,8 @@ package ru.magnitom.parsefiles.application;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import ru.magnitom.commonentity.entity.Payments;
 import ru.magnitom.parsefiles.api.PaymentParseFile;
-import ru.magnitom.parsefiles.entity.Payments;
 
 import java.util.List;
 

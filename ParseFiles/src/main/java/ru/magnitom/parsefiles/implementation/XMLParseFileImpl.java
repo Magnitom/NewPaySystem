@@ -2,9 +2,9 @@ package ru.magnitom.parsefiles.implementation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import ru.magnitom.commonentity.entity.ParseXmlPayment;
+import ru.magnitom.commonentity.entity.Payments;
 import ru.magnitom.parsefiles.api.PaymentParseFile;
-import ru.magnitom.parsefiles.entity.ParseXmlPayment;
-import ru.magnitom.parsefiles.entity.Payments;
 import ru.magnitom.parsefiles.repository.RepoGetPayment;
 import ru.magnitom.parsefiles.repository.RepoParse;
 

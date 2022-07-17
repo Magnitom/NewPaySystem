@@ -3,7 +3,7 @@ package ru.magnitom.parsefiles.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import ru.magnitom.parsefiles.entity.Payments;
+import ru.magnitom.commonentity.entity.Payments;
 
 import java.util.List;
 

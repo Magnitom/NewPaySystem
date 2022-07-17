@@ -5,8 +5,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ru.magnitom.checkpayments.api.GetFailPaymnets;
-import ru.magnitom.checkpayments.entity.Payments;
 import ru.magnitom.checkpayments.repository.GetFailPaymentsRepo;
+import ru.magnitom.commonentity.entity.Payments;
 
 @Component
 public class GetFailPaymnetsImpl implements GetFailPaymnets {

@@ -2,7 +2,7 @@ package ru.magnitom.parsefiles.api;
 
 
 import org.springframework.stereotype.Component;
-import ru.magnitom.parsefiles.entity.Payments;
+import ru.magnitom.commonentity.entity.Payments;
 
 import javax.xml.stream.XMLStreamException;
 import java.io.FileNotFoundException;
